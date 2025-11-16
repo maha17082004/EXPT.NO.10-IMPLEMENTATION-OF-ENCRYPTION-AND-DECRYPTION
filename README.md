@@ -1,3 +1,4 @@
+# DATE:24/09/25
 # EXPT.NO.10-IMPLEMENTATION-OF-ENCRYPTION-AND-DECRYPTION
 # AIM:
 To implement encryption and decryption using C program.
@@ -14,6 +15,7 @@ PC with Linux operating system
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
 # PROGRAM:
+```
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -102,15 +104,10 @@ for(i=0;m[i]!=-1; i++
 )
 printf("%c",m[i]);
 }
-
-
-
-
-
+```
 # OUTPUT:
 
- 
-
+![WhatsApp Image 2025-10-22 at 16 10 10_976601de](https://github.com/user-attachments/assets/73fe6a99-cf02-433f-90b9-86ffdb7acec1)
 
 # RESULT:
 Thus the encryption and decryption is implemented and the output is obtained and verified successfully.
